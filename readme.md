@@ -9,3 +9,14 @@ pip install -r requirements.txt
 ```bash
 ./test.py
 ```
+
+# compile python
+```bash
+pip install pyinstaller 
+pyinstaller test.py --onefile
+```
+# run compiled pyhon example
+```bash
+cd dist
+./test
+```
