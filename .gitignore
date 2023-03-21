@@ -10,3 +10,5 @@ venv.bak/
 #build
 build/
 dist/
+
+*.spec
